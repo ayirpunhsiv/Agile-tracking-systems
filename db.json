@@ -1,0 +1,201 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Priyavelumani",
+      "email": "priyavelumani20102002@gmail.com",
+      "password": "priyavelumani",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Vishnupriya",
+      "email": "vishnupriya@gmail.com",
+      "password": "vishnupriya",
+      "role": "employee"
+    },
+    {
+      "id": "3",
+      "name": "Yuvashree",
+      "email": "yuvashree@gmail.com",
+      "password": "yuvashree",
+      "role": "employee"
+    },
+    {
+      "id": "4",
+      "name": "Swathishree",
+      "email": "swathishree@gmail.com",
+      "password": "swathishree",
+      "role": "employee"
+    },
+    {
+      "id": "2148",
+      "name": "vsurya",
+      "email": "priyavelumani20102002@gmail.com",
+      "password": "priyavelumani",
+      "role": "employee"
+    }
+  ],
+  "scrums": [
+    {
+      "id": "1",
+      "name": "Scrum Team A"
+    },
+    {
+      "id": "2",
+      "name": "Scrum Team B"
+    },
+    {
+      "name": "Scrum Team C",
+      "id": "3"
+    },
+    {
+      "id": "2148",
+      "name": "scrum 5"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Task One",
+      "description": "Description for Task One",
+      "status": "In Progress",
+      "scrumId": 1,
+      "assignedTo": 2,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-01"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "Done",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-19"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-19"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-19"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-19"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-19"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-20"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Task Two",
+      "description": "Description for Task Two",
+      "status": "Done",
+      "scrumId": 2,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-02"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-07-03"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-19"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-19"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-19"
+        }
+      ]
+    },
+    {
+      "title": "Task 3",
+      "description": "Description for Task 3",
+      "status": "Done",
+      "scrumId": 3,
+      "assignedTo": 2,
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-19"
+        }
+      ],
+      "id": "3"
+    },
+    {
+      "id": "9564",
+      "title": "Database",
+      "description": "create database",
+      "status": "To Do",
+      "scrumId": "9297",
+      "assignedTo": "1",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-18"
+        }
+      ]
+    },
+    {
+      "id": "41dd",
+      "title": "task",
+      "description": "do the task",
+      "status": "To Do",
+      "scrumId": "2148",
+      "assignedTo": "",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-21"
+        }
+      ]
+    }
+  ]
+}
